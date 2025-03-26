@@ -1,0 +1,269 @@
+2025-03-21T13:33:22.035+05:30  INFO 1176 --- [BookManagement] [main] com.example.BookManagementApplication    : Starting BookManagementApplication using Java 23.0.2 with PID 1176 (C:\Users\Admin\eclipse-workspace\BookManagement\target\classes started by Admin in C:\Users\Admin\eclipse-workspace\BookManagement)
+2025-03-21T13:33:22.044+05:30  INFO 1176 --- [BookManagement] [main] com.example.BookManagementApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-21T13:33:23.735+05:30  INFO 1176 --- [BookManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-21T13:33:23.826+05:30  INFO 1176 --- [BookManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interface.
+2025-03-21T13:33:24.840+05:30  INFO 1176 --- [BookManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8089 (http)
+2025-03-21T13:33:24.876+05:30  INFO 1176 --- [BookManagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-21T13:33:24.878+05:30  INFO 1176 --- [BookManagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-21T13:33:25.040+05:30  INFO 1176 --- [BookManagement] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-21T13:33:25.041+05:30  INFO 1176 --- [BookManagement] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2777 ms
+2025-03-21T13:33:25.276+05:30  INFO 1176 --- [BookManagement] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-21T13:33:25.380+05:30  INFO 1176 --- [BookManagement] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-21T13:33:25.440+05:30  INFO 1176 --- [BookManagement] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-21T13:33:25.906+05:30  INFO 1176 --- [BookManagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-21T13:33:25.959+05:30  INFO 1176 --- [BookManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-21T13:33:26.631+05:30  INFO 1176 --- [BookManagement] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e2c4d4b
+2025-03-21T13:33:26.635+05:30  INFO 1176 --- [BookManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-21T13:33:26.787+05:30  INFO 1176 --- [BookManagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-21T13:33:27.941+05:30  INFO 1176 --- [BookManagement] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-21T13:33:28.014+05:30  INFO 1176 --- [BookManagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T13:33:28.559+05:30  WARN 1176 --- [BookManagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-21T13:33:29.161+05:30  INFO 1176 --- [BookManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8089 (http) with context path '/'
+2025-03-21T13:33:29.175+05:30  INFO 1176 --- [BookManagement] [main] com.example.BookManagementApplication    : Started BookManagementApplication in 7.876 seconds (process running for 9.282)
+2025-03-21T13:34:32.584+05:30  INFO 1176 --- [BookManagement] [http-nio-8089-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-21T13:34:32.585+05:30  INFO 1176 --- [BookManagement] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-21T13:34:32.588+05:30  INFO 1176 --- [BookManagement] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-21T13:34:33.371+05:30  INFO 1176 --- [BookManagement] [http-nio-8089-exec-2] com.example.control.BookController       : Fetching book with ID : 3
+2025-03-21T13:35:29.821+05:30  INFO 1176 --- [BookManagement] [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-21T13:35:29.827+05:30  INFO 1176 --- [BookManagement] [RMI TCP Connection(4)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-21T13:35:30.108+05:30  INFO 1176 --- [BookManagement] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-21T13:35:30.128+05:30  INFO 1176 --- [BookManagement] [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T13:35:30.132+05:30  INFO 1176 --- [BookManagement] [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-21T13:35:30.154+05:30  INFO 1176 --- [BookManagement] [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-21T13:41:14.184+05:30  INFO 11048 --- [BookManagement] [main] com.example.BookManagementApplication    : Starting BookManagementApplication using Java 23.0.2 with PID 11048 (C:\Users\Admin\eclipse-workspace\BookManagement\target\classes started by Admin in C:\Users\Admin\eclipse-workspace\BookManagement)
+2025-03-21T13:41:14.187+05:30  INFO 11048 --- [BookManagement] [main] com.example.BookManagementApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-21T13:41:15.226+05:30  INFO 11048 --- [BookManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-21T13:41:15.310+05:30  INFO 11048 --- [BookManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interface.
+2025-03-21T13:41:15.934+05:30  INFO 11048 --- [BookManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8089 (http)
+2025-03-21T13:41:15.957+05:30  INFO 11048 --- [BookManagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-21T13:41:15.958+05:30  INFO 11048 --- [BookManagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-21T13:41:16.062+05:30  INFO 11048 --- [BookManagement] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-21T13:41:16.063+05:30  INFO 11048 --- [BookManagement] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1766 ms
+2025-03-21T13:41:16.349+05:30  INFO 11048 --- [BookManagement] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-21T13:41:16.476+05:30  INFO 11048 --- [BookManagement] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-21T13:41:16.539+05:30  INFO 11048 --- [BookManagement] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-21T13:41:16.990+05:30  INFO 11048 --- [BookManagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-21T13:41:17.042+05:30  INFO 11048 --- [BookManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-21T13:41:17.596+05:30  INFO 11048 --- [BookManagement] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b77b0a0
+2025-03-21T13:41:17.599+05:30  INFO 11048 --- [BookManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-21T13:41:17.743+05:30  INFO 11048 --- [BookManagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-21T13:41:18.917+05:30  INFO 11048 --- [BookManagement] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-21T13:41:19.013+05:30  INFO 11048 --- [BookManagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T13:41:19.372+05:30  WARN 11048 --- [BookManagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-21T13:41:19.830+05:30  INFO 11048 --- [BookManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8089 (http) with context path '/'
+2025-03-21T13:41:19.839+05:30  INFO 11048 --- [BookManagement] [main] com.example.BookManagementApplication    : Started BookManagementApplication in 6.326 seconds (process running for 7.368)
+2025-03-21T13:41:26.039+05:30  INFO 11048 --- [BookManagement] [http-nio-8089-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-21T13:41:26.040+05:30  INFO 11048 --- [BookManagement] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-21T13:41:26.043+05:30  INFO 11048 --- [BookManagement] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-03-21T13:41:26.117+05:30  INFO 11048 --- [BookManagement] [http-nio-8089-exec-1] com.example.control.BookController       : Fetching book with ID : 3
+2025-03-21T13:41:27.048+05:30  INFO 11048 --- [BookManagement] [http-nio-8089-exec-1] com.example.service.BookService          : The book is fetched successfully
+2025-03-21T13:45:21.716+05:30  INFO 11048 --- [BookManagement] [http-nio-8089-exec-5] com.example.control.BookController       : Request has been made to delete the book with id : 3
+2025-03-21T13:45:22.158+05:30  INFO 11048 --- [BookManagement] [http-nio-8089-exec-5] com.example.control.BookController       : Book with ID 3 has been deleted from the database successfully
+2025-03-21T13:46:34.083+05:30  INFO 11048 --- [BookManagement] [http-nio-8089-exec-1] com.example.control.BookController       : Request made to fetch all the books
+2025-03-21T13:46:34.493+05:30  INFO 11048 --- [BookManagement] [http-nio-8089-exec-1] com.example.service.BookService          : All the books have been fetched successfuly
+2025-03-21T13:50:16.978+05:30  INFO 11048 --- [BookManagement] [http-nio-8089-exec-3] com.example.control.BookController       : Request has been made to insert book with id : null
+2025-03-21T13:50:17.099+05:30  INFO 11048 --- [BookManagement] [http-nio-8089-exec-3] com.example.control.BookController       : Book has been added successfully with ID: 7
+2025-03-21T13:50:48.078+05:30  INFO 11048 --- [BookManagement] [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-21T13:50:48.212+05:30  INFO 11048 --- [BookManagement] [RMI TCP Connection(13)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-21T13:50:48.344+05:30  INFO 11048 --- [BookManagement] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-21T13:50:48.468+05:30  INFO 11048 --- [BookManagement] [RMI TCP Connection(13)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T13:50:48.514+05:30  INFO 11048 --- [BookManagement] [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-21T13:50:48.691+05:30  INFO 11048 --- [BookManagement] [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-21T13:51:05.839+05:30  INFO 9464 --- [BookManagement] [main] com.example.BookManagementApplication    : Starting BookManagementApplication using Java 23.0.2 with PID 9464 (C:\Users\Admin\eclipse-workspace\BookManagement\target\classes started by Admin in C:\Users\Admin\eclipse-workspace\BookManagement)
+2025-03-21T13:51:05.843+05:30  INFO 9464 --- [BookManagement] [main] com.example.BookManagementApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-21T13:51:07.269+05:30  INFO 9464 --- [BookManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-21T13:51:07.455+05:30  INFO 9464 --- [BookManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 159 ms. Found 1 JPA repository interface.
+2025-03-21T13:51:08.537+05:30  INFO 9464 --- [BookManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8089 (http)
+2025-03-21T13:51:08.582+05:30  INFO 9464 --- [BookManagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-21T13:51:08.583+05:30  INFO 9464 --- [BookManagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-21T13:51:08.735+05:30  INFO 9464 --- [BookManagement] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-21T13:51:08.736+05:30  INFO 9464 --- [BookManagement] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2740 ms
+2025-03-21T13:51:09.091+05:30  INFO 9464 --- [BookManagement] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-21T13:51:09.223+05:30  INFO 9464 --- [BookManagement] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-21T13:51:09.288+05:30  INFO 9464 --- [BookManagement] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-21T13:51:09.983+05:30  INFO 9464 --- [BookManagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-21T13:51:10.066+05:30  INFO 9464 --- [BookManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-21T13:51:11.007+05:30  INFO 9464 --- [BookManagement] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45b27ad3
+2025-03-21T13:51:11.012+05:30  INFO 9464 --- [BookManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-21T13:51:11.506+05:30  INFO 9464 --- [BookManagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-21T13:51:15.919+05:30  INFO 9464 --- [BookManagement] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-21T13:51:16.134+05:30  INFO 9464 --- [BookManagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T13:51:16.988+05:30  WARN 9464 --- [BookManagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-21T13:51:17.993+05:30  INFO 9464 --- [BookManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8089 (http) with context path '/'
+2025-03-21T13:51:18.009+05:30  INFO 9464 --- [BookManagement] [main] com.example.BookManagementApplication    : Started BookManagementApplication in 13.254 seconds (process running for 16.716)
+2025-03-21T13:51:29.796+05:30  INFO 9464 --- [BookManagement] [http-nio-8089-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-21T13:51:29.797+05:30  INFO 9464 --- [BookManagement] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-21T13:51:29.798+05:30  INFO 9464 --- [BookManagement] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-21T13:51:30.992+05:30  INFO 9464 --- [BookManagement] [http-nio-8089-exec-1] com.example.control.BookController       : Request has been made to insert book
+2025-03-21T13:51:32.044+05:30  INFO 9464 --- [BookManagement] [http-nio-8089-exec-1] com.example.control.BookController       : Book has been added successfully with ID: 9
+2025-03-21T13:52:47.255+05:30  INFO 9464 --- [BookManagement] [http-nio-8089-exec-5] com.example.control.BookController       : Fetching book with ID : 20
+2025-03-21T13:52:48.323+05:30 ERROR 9464 --- [BookManagement] [http-nio-8089-exec-5] com.example.service.BookService          : The book requested does not exist in the Database
+2025-03-21T13:52:48.324+05:30 ERROR 9464 --- [BookManagement] [http-nio-8089-exec-5] c.e.exception.BookNotFoundException      : BookNotFoundException: 
+2025-03-21T13:54:43.894+05:30  INFO 9464 --- [BookManagement] [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-21T13:54:43.902+05:30  INFO 9464 --- [BookManagement] [RMI TCP Connection(8)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-21T13:54:43.918+05:30  INFO 9464 --- [BookManagement] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-21T13:54:43.945+05:30  INFO 9464 --- [BookManagement] [RMI TCP Connection(8)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T13:54:43.951+05:30  INFO 9464 --- [BookManagement] [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-21T13:54:43.981+05:30  INFO 9464 --- [BookManagement] [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-21T13:54:59.901+05:30  INFO 9208 --- [BookManagement] [main] com.example.BookManagementApplication    : Starting BookManagementApplication using Java 23.0.2 with PID 9208 (C:\Users\Admin\eclipse-workspace\BookManagement\target\classes started by Admin in C:\Users\Admin\eclipse-workspace\BookManagement)
+2025-03-21T13:54:59.905+05:30  INFO 9208 --- [BookManagement] [main] com.example.BookManagementApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-21T13:55:00.929+05:30  INFO 9208 --- [BookManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-21T13:55:01.051+05:30  INFO 9208 --- [BookManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 1 JPA repository interface.
+2025-03-21T13:55:02.439+05:30  INFO 9208 --- [BookManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8089 (http)
+2025-03-21T13:55:02.466+05:30  INFO 9208 --- [BookManagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-21T13:55:02.467+05:30  INFO 9208 --- [BookManagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-21T13:55:02.598+05:30  INFO 9208 --- [BookManagement] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-21T13:55:02.599+05:30  INFO 9208 --- [BookManagement] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2587 ms
+2025-03-21T13:55:02.840+05:30  INFO 9208 --- [BookManagement] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-21T13:55:03.039+05:30  INFO 9208 --- [BookManagement] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-21T13:55:03.096+05:30  INFO 9208 --- [BookManagement] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-21T13:55:03.565+05:30  INFO 9208 --- [BookManagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-21T13:55:03.616+05:30  INFO 9208 --- [BookManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-21T13:55:04.115+05:30  INFO 9208 --- [BookManagement] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@702f4124
+2025-03-21T13:55:04.119+05:30  INFO 9208 --- [BookManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-21T13:55:04.265+05:30  INFO 9208 --- [BookManagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-21T13:55:05.766+05:30  INFO 9208 --- [BookManagement] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-21T13:55:05.843+05:30  INFO 9208 --- [BookManagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T13:55:06.227+05:30  WARN 9208 --- [BookManagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-21T13:55:07.006+05:30  INFO 9208 --- [BookManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8089 (http) with context path '/'
+2025-03-21T13:55:07.017+05:30  INFO 9208 --- [BookManagement] [main] com.example.BookManagementApplication    : Started BookManagementApplication in 7.811 seconds (process running for 9.02)
+2025-03-21T13:55:18.256+05:30  INFO 9208 --- [BookManagement] [http-nio-8089-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-21T13:55:18.257+05:30  INFO 9208 --- [BookManagement] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-21T13:55:18.260+05:30  INFO 9208 --- [BookManagement] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-21T13:55:18.359+05:30  INFO 9208 --- [BookManagement] [http-nio-8089-exec-2] com.example.control.BookController       : Request has been made to delete the book with id : 5
+2025-03-21T13:55:19.448+05:30 ERROR 9208 --- [BookManagement] [http-nio-8089-exec-2] com.example.service.BookService          : The book doesn't exist
+2025-03-21T13:55:19.449+05:30  INFO 9208 --- [BookManagement] [http-nio-8089-exec-2] com.example.control.BookController       : Book with ID 5 has been deleted from the database successfully
+2025-03-21T13:55:47.976+05:30  INFO 9208 --- [BookManagement] [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-21T13:55:47.982+05:30  INFO 9208 --- [BookManagement] [RMI TCP Connection(4)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-21T13:55:47.995+05:30  INFO 9208 --- [BookManagement] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-21T13:55:48.003+05:30  INFO 9208 --- [BookManagement] [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T13:55:48.007+05:30  INFO 9208 --- [BookManagement] [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-21T13:55:48.026+05:30  INFO 9208 --- [BookManagement] [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-21T13:55:59.106+05:30  INFO 7716 --- [BookManagement] [main] com.example.BookManagementApplication    : Starting BookManagementApplication using Java 23.0.2 with PID 7716 (C:\Users\Admin\eclipse-workspace\BookManagement\target\classes started by Admin in C:\Users\Admin\eclipse-workspace\BookManagement)
+2025-03-21T13:55:59.109+05:30  INFO 7716 --- [BookManagement] [main] com.example.BookManagementApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-21T13:56:00.296+05:30  INFO 7716 --- [BookManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-21T13:56:00.394+05:30  INFO 7716 --- [BookManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 1 JPA repository interface.
+2025-03-21T13:56:01.092+05:30  INFO 7716 --- [BookManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8089 (http)
+2025-03-21T13:56:01.119+05:30  INFO 7716 --- [BookManagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-21T13:56:01.120+05:30  INFO 7716 --- [BookManagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-21T13:56:01.227+05:30  INFO 7716 --- [BookManagement] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-21T13:56:01.228+05:30  INFO 7716 --- [BookManagement] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2017 ms
+2025-03-21T13:56:01.453+05:30  INFO 7716 --- [BookManagement] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-21T13:56:01.552+05:30  INFO 7716 --- [BookManagement] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-21T13:56:01.618+05:30  INFO 7716 --- [BookManagement] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-21T13:56:02.070+05:30  INFO 7716 --- [BookManagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-21T13:56:02.126+05:30  INFO 7716 --- [BookManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-21T13:56:02.630+05:30  INFO 7716 --- [BookManagement] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@144e36ae
+2025-03-21T13:56:02.634+05:30  INFO 7716 --- [BookManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-21T13:56:02.773+05:30  INFO 7716 --- [BookManagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-21T13:56:04.008+05:30  INFO 7716 --- [BookManagement] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-21T13:56:04.087+05:30  INFO 7716 --- [BookManagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T13:56:04.399+05:30  WARN 7716 --- [BookManagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-21T13:56:04.867+05:30  INFO 7716 --- [BookManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8089 (http) with context path '/'
+2025-03-21T13:56:04.882+05:30  INFO 7716 --- [BookManagement] [main] com.example.BookManagementApplication    : Started BookManagementApplication in 6.425 seconds (process running for 7.506)
+2025-03-21T13:56:10.765+05:30  INFO 7716 --- [BookManagement] [http-nio-8089-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-21T13:56:10.766+05:30  INFO 7716 --- [BookManagement] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-21T13:56:10.768+05:30  INFO 7716 --- [BookManagement] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-03-21T13:56:10.850+05:30  INFO 7716 --- [BookManagement] [http-nio-8089-exec-1] com.example.control.BookController       : Request has been made to delete the book with id : 11
+2025-03-21T13:56:11.487+05:30  INFO 7716 --- [BookManagement] [http-nio-8089-exec-1] com.example.service.BookService          : The book has been deleted successfully
+2025-03-21T13:56:11.488+05:30  INFO 7716 --- [BookManagement] [http-nio-8089-exec-1] com.example.control.BookController       : Book with ID 11 has been deleted from the database successfully
+2025-03-21T13:56:19.194+05:30  INFO 7716 --- [BookManagement] [http-nio-8089-exec-3] com.example.control.BookController       : Request has been made to delete the book with id : 20
+2025-03-21T13:56:19.203+05:30 ERROR 7716 --- [BookManagement] [http-nio-8089-exec-3] com.example.service.BookService          : The book doesn't exist
+2025-03-21T13:56:19.203+05:30  INFO 7716 --- [BookManagement] [http-nio-8089-exec-3] com.example.control.BookController       : Book with ID 20 has been deleted from the database successfully
+2025-03-21T13:58:17.420+05:30  INFO 7716 --- [BookManagement] [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-21T13:58:17.551+05:30  INFO 7716 --- [BookManagement] [RMI TCP Connection(6)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-21T13:58:17.578+05:30  INFO 7716 --- [BookManagement] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-21T13:58:17.614+05:30  INFO 7716 --- [BookManagement] [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T13:58:17.663+05:30  INFO 7716 --- [BookManagement] [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-21T13:58:17.715+05:30  INFO 7716 --- [BookManagement] [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-21T13:59:00.316+05:30  INFO 4844 --- [BookManagement] [main] com.example.BookManagementApplication    : Starting BookManagementApplication using Java 23.0.2 with PID 4844 (C:\Users\Admin\eclipse-workspace\BookManagement\target\classes started by Admin in C:\Users\Admin\eclipse-workspace\BookManagement)
+2025-03-21T13:59:00.319+05:30  INFO 4844 --- [BookManagement] [main] com.example.BookManagementApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-21T13:59:01.222+05:30  INFO 4844 --- [BookManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-21T13:59:01.309+05:30  INFO 4844 --- [BookManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interface.
+2025-03-21T13:59:02.084+05:30  INFO 4844 --- [BookManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8089 (http)
+2025-03-21T13:59:02.108+05:30  INFO 4844 --- [BookManagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-21T13:59:02.109+05:30  INFO 4844 --- [BookManagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-21T13:59:02.205+05:30  INFO 4844 --- [BookManagement] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-21T13:59:02.205+05:30  INFO 4844 --- [BookManagement] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1788 ms
+2025-03-21T13:59:02.454+05:30  INFO 4844 --- [BookManagement] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-21T13:59:02.578+05:30  INFO 4844 --- [BookManagement] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-21T13:59:02.653+05:30  INFO 4844 --- [BookManagement] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-21T13:59:03.177+05:30  INFO 4844 --- [BookManagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-21T13:59:03.228+05:30  INFO 4844 --- [BookManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-21T13:59:03.967+05:30  INFO 4844 --- [BookManagement] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@64420e34
+2025-03-21T13:59:03.972+05:30  INFO 4844 --- [BookManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-21T13:59:04.179+05:30  INFO 4844 --- [BookManagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-21T13:59:05.517+05:30  INFO 4844 --- [BookManagement] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-21T13:59:05.721+05:30  INFO 4844 --- [BookManagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T13:59:06.067+05:30  WARN 4844 --- [BookManagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-21T13:59:06.662+05:30  INFO 4844 --- [BookManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8089 (http) with context path '/'
+2025-03-21T13:59:06.674+05:30  INFO 4844 --- [BookManagement] [main] com.example.BookManagementApplication    : Started BookManagementApplication in 6.935 seconds (process running for 8.153)
+2025-03-21T13:59:13.821+05:30  INFO 4844 --- [BookManagement] [http-nio-8089-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-21T13:59:13.821+05:30  INFO 4844 --- [BookManagement] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-21T13:59:13.823+05:30  INFO 4844 --- [BookManagement] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-21T13:59:13.900+05:30  INFO 4844 --- [BookManagement] [http-nio-8089-exec-1] com.example.control.BookController       : Request has been made to delete the book with id : 20
+2025-03-21T13:59:14.680+05:30 ERROR 4844 --- [BookManagement] [http-nio-8089-exec-1] com.example.service.BookService          : The book doesn't exist
+2025-03-21T14:00:39.274+05:30  INFO 4844 --- [BookManagement] [http-nio-8089-exec-7] com.example.service.BookService          : The update process has began for id : 3
+2025-03-21T14:00:39.274+05:30  INFO 4844 --- [BookManagement] [http-nio-8089-exec-7] com.example.service.BookService          : The book has been updated successfully
+2025-03-21T14:00:39.369+05:30  INFO 4844 --- [BookManagement] [http-nio-8089-exec-7] com.example.control.BookController       : Book with ID 3 has been updated successfully
+2025-03-21T14:01:17.416+05:30  INFO 4844 --- [BookManagement] [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-21T14:01:17.430+05:30  INFO 4844 --- [BookManagement] [RMI TCP Connection(6)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-21T14:01:17.444+05:30  INFO 4844 --- [BookManagement] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-21T14:01:17.453+05:30  INFO 4844 --- [BookManagement] [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T14:01:17.536+05:30  INFO 4844 --- [BookManagement] [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-21T14:01:17.555+05:30  INFO 4844 --- [BookManagement] [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-21T14:25:42.120+05:30  INFO 648 --- [BookManagement] [main] com.example.control.BookControllerTest   : Starting BookControllerTest using Java 23.0.2 with PID 648 (started by Admin in C:\Users\Admin\eclipse-workspace\BookManagement)
+2025-03-21T14:25:42.126+05:30  INFO 648 --- [BookManagement] [main] com.example.control.BookControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2025-03-21T14:25:46.584+05:30  INFO 648 --- [BookManagement] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-03-21T14:25:46.584+05:30  INFO 648 --- [BookManagement] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-03-21T14:25:46.588+05:30  INFO 648 --- [BookManagement] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2025-03-21T14:25:46.679+05:30  INFO 648 --- [BookManagement] [main] com.example.control.BookControllerTest   : Started BookControllerTest in 5.559 seconds (process running for 8.568)
+2025-03-21T14:25:47.149+05:30  INFO 648 --- [BookManagement] [main] com.example.control.BookController       : Request has been made to insert book
+2025-03-21T14:25:47.157+05:30  INFO 648 --- [BookManagement] [main] com.example.control.BookController       : Book has been added successfully with ID: 1
+2025-03-21T14:25:47.310+05:30  INFO 648 --- [BookManagement] [main] com.example.control.BookController       : Request made to fetch all the books
+2025-03-21T14:25:47.342+05:30  INFO 648 --- [BookManagement] [main] com.example.control.BookController       : Book with ID 1 has been updated successfully
+2025-03-21T14:25:47.362+05:30  INFO 648 --- [BookManagement] [main] com.example.control.BookController       : Fetching book with ID : 1
+2025-03-21T14:25:47.396+05:30  INFO 648 --- [BookManagement] [main] com.example.control.BookController       : Request has been made to delete the book with id : 1
+2025-03-21T14:25:47.399+05:30  INFO 648 --- [BookManagement] [main] com.example.control.BookController       : Book with ID 1 has been deleted from the database successfully
